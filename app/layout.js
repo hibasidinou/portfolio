@@ -11,15 +11,16 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const description =
+  "Cyber Defense engineering student at ENSA Marrakech: SOC, SIEM (Wazuh), CIS hardening and compliance. Looking for a PFE internship from February 2027.";
+
 export const metadata = {
   metadataBase: new URL("https://hibasidinou.vercel.app"),
   title: "Hiba Sidinou – Cybersecurity Engineering Student",
-  description:
-    "Portfolio of Hiba Sidinou: SOC, SIEM, CIS hardening and compliance. Looking for a PFE internship from February 2027.",
+  description,
   openGraph: {
     title: "Hiba Sidinou – Cybersecurity Engineering Student",
-    description:
-      "SOC, SIEM, CIS hardening and compliance. Looking for a PFE internship from February 2027.",
+    description,
     url: "https://hibasidinou.vercel.app",
     siteName: "Hiba Sidinou",
     type: "website",
@@ -27,8 +28,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Hiba Sidinou – Cybersecurity Engineering Student",
-    description:
-      "SOC, SIEM, CIS hardening and compliance. Looking for a PFE internship from February 2027.",
+    description,
   },
 };
 
