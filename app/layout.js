@@ -18,6 +18,7 @@ export const metadata = {
   metadataBase: new URL("https://hibasidinou.vercel.app"),
   title: "Hiba Sidinou – Cybersecurity Engineering Student",
   description,
+  authors: [{ name: "Hiba Sidinou", url: "https://hibasidinou.vercel.app" }],
   openGraph: {
     title: "Hiba Sidinou – Cybersecurity Engineering Student",
     description,
